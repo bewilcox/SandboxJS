@@ -4,7 +4,6 @@
 // ##############################################################
 HyperRest = function() {
     var baseUrl = "http://localhost:8080/";
-    var discoverResult;
     
     /**
      * Discover the available resources (GET on root)
@@ -52,7 +51,7 @@ HyperRest = function() {
         return result; 
     };
     
-
+    
     
     /**
      * Accesors for the baseUrl
